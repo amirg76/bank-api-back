@@ -1,6 +1,6 @@
-import { app } from "/app.js";
+import { app } from "./app.js";
 import express from "express";
-import "/db/mongoose.js";
+import "./db/mongoose.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
